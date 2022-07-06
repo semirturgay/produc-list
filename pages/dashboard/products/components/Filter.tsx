@@ -1,7 +1,7 @@
 import {Box, Checkbox, Flex, HStack, Input, useColorModeValue} from "@chakra-ui/react";
 import {ChangeEvent} from "react";
 
-export const Filter = ({
+const Filter = ({
                            onFilterByTittle,
                            onShowOnlyFeatured
                        }: { onFilterByTittle: (event: ChangeEvent<HTMLInputElement>) => void, onShowOnlyFeatured: (event: ChangeEvent<HTMLInputElement>) => void }) => {
@@ -20,3 +20,5 @@ export const Filter = ({
         </Box>
     )
 }
+
+export default Filter

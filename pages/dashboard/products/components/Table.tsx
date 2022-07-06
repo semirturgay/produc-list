@@ -5,7 +5,6 @@ import {
     TableInstance,
     Column,
 } from "react-table";
-
 import {
     Table,
     Thead,
@@ -33,7 +32,7 @@ import {
 
 import {Product} from "../index";
 
-export const CustomTable = ({columns, data}: { columns: Column<Product>[], data: Product[] }) => {
+const CustomTable = ({columns, data}: { columns: Column<Product>[], data: Product[] }) => {
     const {
         getTableProps,
         getTableBodyProps,
@@ -176,3 +175,5 @@ export const CustomTable = ({columns, data}: { columns: Column<Product>[], data:
         </>
     );
 }
+
+export default CustomTable

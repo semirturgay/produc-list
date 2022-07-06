@@ -12,7 +12,7 @@ import {
 } from '@chakra-ui/react';
 import {signOut} from "next-auth/react"
 
-export const Navbar = () => {
+const Navbar = () => {
     return (
         <Flex as="header" position="fixed" backgroundColor="white" w="100%" marginBottom={10} zIndex={1}>
             <Box w="100%" bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
@@ -44,3 +44,5 @@ export const Navbar = () => {
         </Flex>
     );
 }
+
+export default Navbar

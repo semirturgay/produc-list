@@ -1,15 +1,14 @@
 import type {NextPage} from 'next'
-
 import React, {ChangeEvent, useEffect, useState} from "react";
-import useProductList from "./hooks/useProductList";
 import {
     Flex,
     Spinner
 } from "@chakra-ui/react";
-
-import {CustomTable} from "./components/Table";
 import {Column} from "react-table";
-import {Filter} from "./components/Filter";
+
+import useProductList from "./hooks/useProductList";
+import CustomTable from "./components/Table";
+import Filter from "./components/Filter";
 
 export type Product = {
     "ID": number,

@@ -1,10 +1,11 @@
-import '../styles/globals.css'
 import {SessionProvider, useSession} from "next-auth/react"
 import type {NextComponentType} from 'next'
 import {Box, ChakraProvider} from '@chakra-ui/react'
 import type {AppProps} from 'next/app'
-import {QueryClient, QueryClientProvider, useQueryClient} from "react-query";
-import {Navbar} from "./components/Navbar";
+import {QueryClient, QueryClientProvider} from "react-query";
+
+import '../styles/globals.css'
+import Navbar from "./components/Navbar";
 
 const queryClient = new QueryClient();
 
@@ -43,4 +44,4 @@ function Auth({children}: { children: JSX.Element }): JSX.Element {
     return children
 }
 
-export default MyApp
+export default MyApp;
