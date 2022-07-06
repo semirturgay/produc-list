@@ -1,6 +1,7 @@
 import React from 'react'
 import { render, screen, fireEvent } from '@testing-library/react'
-import { Filter } from './Filter'
+import {Filter} from "../../../../../pages/dashboard/products/components/Filter";
+
 
 describe("Filter", () => {
     it("renders", async () => {
