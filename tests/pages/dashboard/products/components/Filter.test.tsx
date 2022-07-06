@@ -1,6 +1,7 @@
 import React from 'react'
 import { render, screen, fireEvent } from '@testing-library/react'
-import Filter from "../../../../../pages/dashboard/products/components/Filter";
+
+import Filter from "../../../../../components/Filter";
 
 
 describe("Filter", () => {

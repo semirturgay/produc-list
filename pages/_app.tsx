@@ -5,7 +5,7 @@ import type {AppProps} from 'next/app'
 import {QueryClient, QueryClientProvider} from "react-query";
 
 import '../styles/globals.css'
-import Navbar from "./components/Navbar";
+import Navbar from "../components/Navbar";
 
 const queryClient = new QueryClient();
 

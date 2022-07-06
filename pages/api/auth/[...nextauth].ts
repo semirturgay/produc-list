@@ -9,4 +9,5 @@ export default NextAuth({
             clientSecret: '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'
         }),
     ],
+    secret: '2053237909'
 })

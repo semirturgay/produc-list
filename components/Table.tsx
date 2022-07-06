@@ -29,8 +29,8 @@ import {
     ChevronRightIcon,
     ChevronLeftIcon
 } from "@chakra-ui/icons";
+import {Product} from "../pages/dashboard/products";
 
-import {Product} from "../index";
 
 const CustomTable = ({columns, data}: { columns: Column<Product>[], data: Product[] }) => {
     const {

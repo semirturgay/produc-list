@@ -6,9 +6,10 @@ import {
 } from "@chakra-ui/react";
 import {Column} from "react-table";
 
-import useProductList from "./hooks/useProductList";
-import CustomTable from "./components/Table";
-import Filter from "./components/Filter";
+import useProductList from "../../../hooks/useProductList";
+import Filter from "../../../components/Filter";
+import CustomTable from "../../../components/Table";
+
 
 export type Product = {
     "ID": number,
