@@ -1,0 +1,18 @@
+.productTable {
+    border: 1px solid lightgray;
+}
+
+.productTableBody {
+    border-bottom: 1px solid lightgray;
+}
+
+.productTableRow {
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    padding: 2px 4px;
+}
+
+.productTableBodyFooter {
+    color: gray;
+}
+
